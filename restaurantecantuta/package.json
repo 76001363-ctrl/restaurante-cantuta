@@ -1,0 +1,28 @@
+{
+  "name": "restaurante-cantuta",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && wrangler pages deploy .svelte-kit/cloudflare --project-name=restaurante-cantuta",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "setup:admin": "node scripts/bootstrap-admin.mjs"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.6.1",
+    "@supabase/supabase-js": "2.118.0"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-cloudflare": "6.0.1",
+    "@sveltejs/kit": "^2.37.0",
+    "@sveltejs/vite-plugin-svelte": "^5.0.0",
+    "svelte": "^5.0.0",
+    "svelte-check": "^4.0.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.0.0",
+    "wrangler": "3.114.17"
+  }
+}

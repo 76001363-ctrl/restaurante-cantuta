@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title">
+  <title id="title">Imagen de comida no disponible</title>
+  <defs>
+    <linearGradient id="background" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f6e8d8"/>
+      <stop offset="1" stop-color="#ead3bd"/>
+    </linearGradient>
+    <radialGradient id="plate">
+      <stop offset=".68" stop-color="#fffaf4"/>
+      <stop offset=".7" stop-color="#dbc5b1"/>
+      <stop offset=".77" stop-color="#fffaf4"/>
+      <stop offset=".79" stop-color="#d7c1ad"/>
+      <stop offset=".82" stop-color="#fffaf4"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#background)"/>
+  <circle cx="320" cy="210" r="152" fill="url(#plate)"/>
+  <path d="M259 238c7-41 41-73 83-73 25 0 46 12 60 31-19-9-40-7-54 4 25-2 47 12 54 34-28-14-58-10-78 7-19-17-41-17-65-3Z" fill="#a65c3e"/>
+  <path d="M276 244c24 12 59 12 91-1" fill="none" stroke="#6f3a2f" stroke-linecap="round" stroke-width="8"/>
+  <circle cx="283" cy="189" r="10" fill="#88a35b"/>
+  <circle cx="373" cy="220" r="9" fill="#d6a64a"/>
+  <path d="M210 130c-12 17-17 36-15 56m250-56c12 17 17 36 15 56" fill="none" stroke="#b48b6d" stroke-linecap="round" stroke-width="5" opacity=".55"/>
+</svg>

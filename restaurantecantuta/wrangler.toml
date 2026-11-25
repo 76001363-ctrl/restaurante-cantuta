@@ -1,0 +1,4 @@
+name = "restaurante-cantuta"
+compatibility_date = "2026-11-18"
+compatibility_flags = ["nodejs_als"]
+pages_build_output_dir = ".svelte-kit/cloudflare"
